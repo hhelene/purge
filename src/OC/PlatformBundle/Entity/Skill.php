@@ -5,7 +5,7 @@ namespace OC\PlatformBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use OC\PlatformBundle\Entity\AdvertSkill;
-
+use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @ORM\Entity
  * @ORM\Table(name="oc_skill")
