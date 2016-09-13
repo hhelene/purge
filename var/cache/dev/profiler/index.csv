@@ -343,3 +343,9 @@ ae23b7,127.0.0.1,GET,http://monsupersite/app_dev.php/_fragment?_path=_format%3Dh
 f86ec8,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/advert/40,1473777632,,404
 7a3622,127.0.0.1,GET,http://monsupersite/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DOCPlatformBundle%253AAdvert%253Amenu,1473777641,00b0b6,200
 00b0b6,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/advert/39,1473777641,,200
+5cd15a,127.0.0.1,GET,http://monsupersite/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DOCPlatformBundle%253AAdvert%253Amenu,1473780501,705418,200
+705418,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/advert/36,1473780501,,200
+e048ef,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/purge/36,1473780517,c4e3b0,200
+c4e3b0,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/purge/36,1473780517,,500
+ff913e,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/purge/36,1473781064,d7a00c,200
+d7a00c,127.0.0.1,GET,http://monsupersite/app_dev.php/platform/purge/36,1473781064,,500
