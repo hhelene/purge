@@ -64,10 +64,10 @@ class Skill extends \OC\PlatformBundle\Entity\Skill implements \Doctrine\ORM\Pro
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'id', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'name', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'advertSkills'];
+            return ['__isInitialized__', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'id', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'name'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'id', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'name', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'advertSkills'];
+        return ['__isInitialized__', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'id', '' . "\0" . 'OC\\PlatformBundle\\Entity\\Skill' . "\0" . 'name'];
     }
 
     /**

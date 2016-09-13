@@ -69,7 +69,7 @@ class Advert
 
     /**
      * @var ArrayCollection
-     * @ORM\OneToMany(targetEntity="OC\PlatformBundle\Entity\AdvertSkill", mappedBy="advert")
+     * @ORM\OneToMany(targetEntity="OC\PlatformBundle\Entity\AdvertSkill", mappedBy="advert",orphanRemoval=true)
      */
     private $advertSkills;
 

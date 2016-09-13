@@ -24,11 +24,7 @@ class Skill
    */
   private $name;
 
-    /**
-     * @var ArrayCollection
-     * @ORM\OneToMany(targetEntity="OC\PlatformBundle\Entity\AdvertSkill", mappedBy="advertSkills")
-     */
-    private $advertSkills;
+
     /**
      * Skill constructor.
      */
